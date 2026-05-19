@@ -35,19 +35,19 @@ A responsive, multi-page web application for managing a college technical fest �
 
 ### Home — Live clock & fest countdown
 
-![TechNova 2026 Home Page](docs/screenshots/Picture1.png)
+![TechNova 2026 Home Page](screenshots/Picture1.png)
 
 ### Events & Registration
 
 Browse event cards, view capacity and fees, and open the registration form with a single click.
 
-![Events and Registration](docs/screenshots/Picture2.png)
+![Events and Registration](screenshots/Picture2.png)
 
 ### Feedback — Submit & session summary
 
-![Feedback submission success](docs/screenshots/Picture3.png)
+![Feedback submission success](screenshots/Picture3.png)
 
-![Feedback analytics summary](docs/screenshots/Picture4.png)
+![Feedback analytics summary](screenshots/Picture4.png)
 
 ---
 
