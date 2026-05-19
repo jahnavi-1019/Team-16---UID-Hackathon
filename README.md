@@ -1,4 +1,4 @@
-# TechNova 2026 — Smart Campus Event Management
+# TechNova 2026: Smart Campus Event Management
 
 [![UID Hackathon](https://img.shields.io/badge/UID-IV%20Semester-blue)](https://github.com/jahnavi-1019/Team-16---UID-Hackathon)
 [![Team](https://img.shields.io/badge/Team-16-green)](https://github.com/jahnavi-1019/Team-16---UID-Hackathon)
@@ -71,8 +71,7 @@ Browse event cards, view capacity and fees, and open the registration form with 
 - **CSS3** — Custom properties, flex/grid, mobile-first design
 - **Vanilla JavaScript** — DOM manipulation, form validation, live timers, dynamic rendering
 
-No build tools or frameworks required — open and run in any modern browser.
+No build tools or frameworks required — open and run in any browser.
 
 ---
 
-## Project Structure
