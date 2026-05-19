@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechNova 2026 — Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo"><span>TechNova</span> 2026</a>
+      <button type="button" class="nav-toggle" aria-label="Toggle menu">☰</button>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="feedback.html">Feedback</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h1 class="page-title">TechNova 2026</h1>
+    <p class="page-subtitle">Smart Campus Event Management - Technical Fest</p>
+
+    <section class="banner" aria-label="Fest banner">
+      <img src="images/banner.png" alt="TechNova 2026 banner">
+    </section>
+
+    <div class="datetime-bar">
+      <div class="item">
+        <p class="label">Current Date &amp; Time</p>
+        <p class="value" id="currentDateTime">—</p>
+      </div>
+      <div class="item">
+        <p class="label">Countdown to Fest (15 Oct 2026)</p>
+        <div class="countdown" id="countdown">
+          <div class="countdown-unit"><span data-unit="days">0</span><small>Days</small></div>
+          <div class="countdown-unit"><span data-unit="hours">0</span><small>Hours</small></div>
+          <div class="countdown-unit"><span data-unit="minutes">0</span><small>Mins</small></div>
+          <div class="countdown-unit"><span data-unit="seconds">0</span><small>Secs</small></div>
+        </div>
+      </div>
+    </div>
+
+    <section class="section">
+      <h2>Event Dashboard</h2>
+      <div class="dashboard-grid">
+        <div class="card">
+          <h3>Total Events</h3>
+          <p class="stat-value" id="statTotal">0</p>
+        </div>
+        <div class="card">
+          <h3>Open Events</h3>
+          <p class="stat-value" id="statOpen">0</p>
+        </div>
+        <div class="card">
+          <h3>Closed Events</h3>
+          <p class="stat-value" id="statClosed">0</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="info-grid">
+      <section class="card section">
+        <h2>About the Fest</h2>
+        <p class="intro-text">
+          TechNova 2026 is the annual technical symposium of our university, bringing together
+          students from engineering and technology departments for coding contests, project
+          exhibitions, robotics challenges, and innovation workshops. Register for events,
+          showcase your skills, and connect with peers and industry mentors.
+        </p>
+      </section>
+
+      <section class="card section">
+        <h2>Important Announcements</h2>
+        <ul class="announcement-list">
+          <li>
+            <span class="badge">New</span>
+            <span>Early-bird registration closes on 10 March 2026.</span>
+          </li>
+          <li>
+            <span class="badge">Info</span>
+            <span>Report at the registration desk 30 minutes before your event.</span>
+          </li>
+        </ul>
+      </section>
+    </div>
+
+    <p class="intro-text">
+      <a href="events.html">Browse events and register →</a>
+    </p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-contact" style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid rgba(255,255,255,0.1);">
+      <strong>Organizing Committee Contact</strong><br>
+      Email: technova2026@university.edu | Phone: +91 98765 43210<br>
+      Venue: Main Campus, Block C — Seminar Hall
+    </div>
+    <p>TechNova 2026 — Department of Computer Science &amp; Engineering</p>
+    <p>Smart Campus Event Management Web Application</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechNova 2026 — Feedback</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo"><span>TechNova</span> 2026</a>
+      <button type="button" class="nav-toggle" aria-label="Toggle menu">☰</button>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="feedback.html">Feedback</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h1 class="page-title">Feedback</h1>
+    <p class="page-subtitle">Share your experience from TechNova 2026 events</p>
+
+    <p class="registration-count" id="averageRating">No feedback submitted yet.</p>
+
+    <section class="form-section">
+      <h2>Event Feedback Form</h2>
+      <form id="feedbackForm" novalidate>
+        <div class="form-grid">
+          <div class="form-group">
+            <label for="fbName">Student Name</label>
+            <input type="text" id="fbName" name="fbName" placeholder="Your name">
+            <span class="error-msg" id="fbNameError"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="fbRegister">Register Number</label>
+            <input type="text" id="fbRegister" name="fbRegister" placeholder="CB.EN.U4CSE23001">
+            <span class="error-msg" id="fbRegisterError"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="eventAttended">Event Attended</label>
+            <select id="eventAttended" name="eventAttended"></select>
+            <span class="error-msg" id="eventAttendedError"></span>
+          </div>
+
+          <div class="form-group full-width">
+            <label>Rating (1–5)</label>
+            <div class="rating-group">
+              <label><input type="radio" name="rating" value="1"> 1</label>
+              <label><input type="radio" name="rating" value="2"> 2</label>
+              <label><input type="radio" name="rating" value="3"> 3</label>
+              <label><input type="radio" name="rating" value="4"> 4</label>
+              <label><input type="radio" name="rating" value="5"> 5</label>
+            </div>
+            <span class="error-msg" id="ratingError"></span>
+          </div>
+
+          <div class="form-group full-width">
+            <label for="comments">Comments</label>
+            <textarea id="comments" name="comments" placeholder="Minimum 20 characters"></textarea>
+            <span class="error-msg" id="commentsError"></span>
+          </div>
+        </div>
+
+        <div class="form-actions">
+          <button type="submit" class="btn btn-primary">Submit Feedback</button>
+        </div>
+
+        <div id="fbMessage" class="message message-feedback" role="alert" aria-live="polite"></div>
+      </form>
+    </section>
+
+    <section class="section">
+      <h2>Feedback Summary (This Session)</h2>
+      <div id="feedbackList">
+        <p>No feedback submitted yet.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>TechNova 2026 — Department of Computer Science &amp; Engineering</p>
+    <p>Smart Campus Event Management Web Application</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
