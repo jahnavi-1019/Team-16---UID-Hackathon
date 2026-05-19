@@ -4,6 +4,21 @@
 [![Team](https://img.shields.io/badge/Team-16-green)](https://github.com/jahnavi-1019/Team-16---UID-Hackathon)
 [![AID](https://img.shields.io/badge/Dept-AID-orange)](#team)
 
+## Team
+
+**Team Number:** 16
+
+| Name | Register No. |
+|------|----------------|
+| Mutyala Jahnavi Sai | AID24047 |
+| Divyesh Shanamugarajah | AID24083 |
+| Aejaz Ahmad Ansari | AID24078 |
+
+**Course:** UID — IV Semester  
+**Department:** Artificial Intelligence and Data Science (AID)
+
+---
+
 A responsive, multi-page web application for managing a college technical fest — **India's Biggest AI Hackathon** theme — built as part of the **UID (User Interface Design) IV Semester** coursework for **Artificial Intelligence and Data Science (AID)**.
 
 **Repository:** [github.com/jahnavi-1019/Team-16---UID-Hackathon](https://github.com/jahnavi-1019/Team-16---UID-Hackathon)
@@ -20,19 +35,19 @@ A responsive, multi-page web application for managing a college technical fest �
 
 ### Home — Live clock & fest countdown
 
-![TechNova 2026 Home Page](docs/screenshots/home.png)
+![TechNova 2026 Home Page](docs/screenshots/Picture1.png)
 
 ### Events & Registration
 
 Browse event cards, view capacity and fees, and open the registration form with a single click.
 
-![Events and Registration](docs/screenshots/events.png)
+![Events and Registration](docs/screenshots/Picture2.png)
 
 ### Feedback — Submit & session summary
 
-![Feedback submission success](docs/screenshots/feedback-submit.png)
+![Feedback submission success](docs/screenshots/Picture3.png)
 
-![Feedback analytics summary](docs/screenshots/feedback-summary.png)
+![Feedback analytics summary](docs/screenshots/Picture4.png)
 
 ---
 
